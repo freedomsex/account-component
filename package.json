@@ -11,7 +11,10 @@
     "url": "git+https://github.com/freedomsex/account-component.git"
   },
   "peerDependencies": {
+    "@freedomsex/service-worker": "0.0.1",
     "@freedomsex/styles": "0.0.3",
+    "axios": "^0.19.0",
+    "axios-rest-api": "^0.1.15",
     "moment": "^2.24.0",
     "underscore": "^1.9.1"
   },

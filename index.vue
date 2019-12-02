@@ -1,5 +1,5 @@
 <script>
-import DesireList from '~modules/DesireList/DesireList';
+import DesireList from './DesireList/DesireList';
 import VipStatus from './VipStatus';
 import moment from 'moment';
 
