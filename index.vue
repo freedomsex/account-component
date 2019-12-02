@@ -1,6 +1,7 @@
 <script>
 import DesireList from '~modules/DesireList/DesireList';
 import VipStatus from './VipStatus';
+import moment from 'moment';
 
 export default {
   props: ['human'],
@@ -10,15 +11,14 @@ export default {
     };
   },
   mounted() {
-    this.$moment().locale('ru');
-    console.log(this.$moment.locale());
+    moment().locale('ru');
   },
   updated() {
     console.log('ACCOUNT', this.human);
   },
   computed: {
     age() {
-      const ago = this.$moment.duration(this.human.age, 'years').humanize();
+      const ago = moment.duration(this.human.age, 'years').humanize();
       return this.human.age ? ago : null;
     },
     tags() {
@@ -87,7 +87,7 @@ export default {
       const {last} = this.human;
       let result = 'Онлайн';
       if (last > 777) {
-        result = this.$moment.duration(0 - last, 'seconds').humanize(true);
+        result = moment.duration(0 - last, 'seconds').humanize(true);
       } // else
       if (last > 2592000) {
         result = null;
@@ -201,7 +201,10 @@ export default {
   </div>
 </template>
 
-<style lang="less">
+<style lang="less"> 
+
+@icon-path: "./images";
+
 .account-component {
   &__wrapper {
     padding-top: @indent-lg;
@@ -251,7 +254,7 @@ export default {
     vertical-align: middle;
     width: 16px;
     height: 11px;
-    background-image: url("/img/ajax_loader_gray.gif");
+    background-image: url("@{icon-path}/loader.gif");
     background-repeat: no-repeat;
     //     display: none;
   }
@@ -279,8 +282,6 @@ export default {
     margin-top: @indent-md;
   }
 }
-
-@icon-path: "~static/img/icon";
 
 .human-social {
   i {

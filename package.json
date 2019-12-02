@@ -1,0 +1,24 @@
+{
+  "name": "@freedomsex/account-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freedomsex/account-component.git"
+  },
+  "peerDependencies": {
+    "@freedomsex/styles": "0.0.3",
+    "moment": "^2.24.0",
+    "underscore": "^1.9.1"
+  },
+  "author": "tebaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freedomsex/account-component/issues"
+  },
+  "homepage": "https://github.com/freedomsex/account-component#readme"
+}
