@@ -29,7 +29,7 @@ export default {
 </template>
 
 <style lang="less"> 
-@icon-path: "./images";
+@icon-path: "../images";
 
 .desire-item {
   background-color: @white;

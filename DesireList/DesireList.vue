@@ -1,6 +1,6 @@
 <script>
 import _ from 'underscore';
-import DesireItem from './DesireItem';
+import DesireItem from './DesireItem.vue';
 
 export default {
   props: ['tags'],

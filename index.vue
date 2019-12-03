@@ -1,6 +1,6 @@
 <script>
-import DesireList from './DesireList/DesireList';
-import VipStatus from './VipStatus';
+import DesireList from './DesireList/DesireList.vue';
+import VipStatus from './VipStatus.vue';
 import moment from 'moment';
 
 export default {
