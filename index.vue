@@ -196,10 +196,6 @@ export default {
       <div class="account-section__header">Номер анкеты</div>
       <div class="human-info__id">
         ID: <b>{{human.id}}</b>
-        <span v-if="level >= 12">
-          <span aria-hidden="true" class="glyphicon glyphicon-wrench"></span>
-          Профиль
-        </span>
       </div>
     </div>
   </div>
