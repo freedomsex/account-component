@@ -1,6 +1,6 @@
 {
   "name": "@freedomsex/account-component",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "",
   "main": "index.vue",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "peerDependencies": {
     "@freedomsex/service-worker": "0.0.1",
-    "@freedomsex/styles": "0.0.3",
+    "@freedomsex/styles": "0.1.2",
     "axios": "^0.19.0",
     "axios-rest-api": "^0.1.15",
     "moment": "^2.24.0",

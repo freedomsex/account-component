@@ -225,7 +225,7 @@ export default {
     display: inline-block;
   }
   &__ago {
-    color: @gray;
+    color: @gray-light;
   }
   &__id {
     // color: @gray;
@@ -237,7 +237,7 @@ export default {
   }
 
   &__search {
-    color: @dark;
+    color: @black;
     font-size: @font-sm;
     display: block;
     text-decoration: none;
@@ -260,11 +260,11 @@ export default {
   }
 
   &__about {
-    color: @dark;
+    color: @black;
     font-size: @font-sm;
   }
   &__measure {
-    color: @dark;
+    color: @black;
     font-size: @font-sm;
     margin-bottom: @indent-md;
   }
@@ -276,7 +276,7 @@ export default {
 .account-section {
   margin: @indent-sm 0;
   &__header {
-    color: @dark;
+    color: @black;
     font-size: @font-lg;
     margin-bottom: @indent-sm;
     margin-top: @indent-md;
@@ -288,8 +288,8 @@ export default {
     background-position: left center;
     background-repeat: no-repeat;
     border-radius: 3px;
-    border: 1px solid @gray-light;
-    color: @dark-light;
+    border: 1px solid @smoke;
+    color: @gray-dark;
     cursor: pointer;
     display: inline-block;
     font-size: 12px;
@@ -325,7 +325,7 @@ export default {
     background-repeat: no-repeat;
     border-radius: 3px;
     border: 1px solid @gray-light;
-    color: @dark-light;
+    color: @gray-dark;
     cursor: pointer;
     display: inline-block;
     font-size: @font-sm;

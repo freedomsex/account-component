@@ -37,8 +37,8 @@ export default {
   background-position: left top;
   background-repeat: no-repeat;
   border-radius: @radius-xs;
-  border: 1px solid @gray;
-  color: @dark-light;
+  border: 1px solid @gray-light;
+  color: @gray-dark;
   cursor: pointer;
   display: inline-block;
   font-size: 10px;
@@ -50,7 +50,7 @@ export default {
   text-transform: uppercase;
 
   &.deleted {
-    background-color: @gray;
+    background-color: @gray-light;
     text-decoration: line-through;
   }
   &.active {
@@ -68,7 +68,7 @@ export default {
   &.process {
     background: @white;
     border-color: @light;
-    color: @gray-dark;
+    color: @gray;
   }
 }
 </style>
