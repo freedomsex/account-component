@@ -27,10 +27,10 @@ export default {
 
 <template>
   <div class="desire-list">
-    <desire-item v-for="(item, index) in tags"
-     :key="index"
-     :tag="item"
-     :added="added(item)"
+    <desire-item v-for="item in tags"
+     :key="item.id"
+     :tag="item.tag"
+     :added="added(item.tag)"
      @select="add"/>
   </div>
 </template>
