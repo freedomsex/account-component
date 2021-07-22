@@ -6,7 +6,7 @@ export default {
   props: ['tags'],
   computed: {
     desires() {
-      return this.$store.getters['desires/tags'];
+      return this.$store.user.tags;
     },
   },
   methods: {
