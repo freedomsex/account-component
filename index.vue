@@ -22,7 +22,7 @@ export default {
       return this.human.age ? ago : null;
     },
     tags() {
-      return 'tags' in this.human ? this.human.tags : [];
+      return (this.human.tags && this.human.tags.length) ? this.human.tags : [];
     },
     city2() {
       return this.human.age;
