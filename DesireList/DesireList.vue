@@ -6,7 +6,10 @@ export default {
   props: ['tags'],
   computed: {
     desires() {
-      return this.$store.state.user.tags;
+      if (this.$store || this.$store.state.user) {
+        return [];
+      }
+      return this.$store.state.user.tags || [];
     },
   },
   methods: {
