@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/freedomsex/account-component/compare/v1.1.4...v1.1.5) (2021-07-24)
+
+
+### Bug Fixes
+
+* desires ([c31c5c2](https://github.com/freedomsex/account-component/commit/c31c5c21b3eeb5318cdfd4662fc8cc3386840445))
+
 ### [1.1.4](https://github.com/freedomsex/account-component/compare/v1.1.3...v1.1.4) (2021-07-22)
 
 
