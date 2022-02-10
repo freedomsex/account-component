@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.6"></a>
+## [1.1.6](https://github.com/freedomsex/account-component/compare/1.1.5...1.1.6) (2022-02-10)
+
+
+### Bug Fixes
+
+* ver prefix ([1deb168](https://github.com/freedomsex/account-component/commit/1deb168))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
