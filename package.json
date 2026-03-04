@@ -14,7 +14,7 @@
     "@freedomsex/service-worker": "*",
     "@freedomsex/styles": "0.1.2",
     "moment": "^2.0",
-    "underscore": "^1.0"
+    "underscore": "^1.13"
   },
   "author": "tebaly",
   "license": "ISC",
